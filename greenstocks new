@@ -1,0 +1,24 @@
+Attribute VB_Name = "Module1"
+Sub macrocheck()
+Dim testmessage As String
+testmessage = "hello world!"
+MsgBox (testmessage)
+
+End Sub
+
+Sub DQAnalysis()
+
+Worksheets("DQAnalysis").Activate
+
+Range("A1").Value = "DAQO (Ticker:DQ)"
+
+Cells(3, 1).Value = "year"
+Cells(3, 2).Value = "Total Daily Volume"
+Cells(3, 3).Value = "Return"
+
+
+
+
+
+
+End Sub
